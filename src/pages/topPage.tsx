@@ -1,7 +1,12 @@
 import React, { FC } from 'react';
+import TopHeader from '../components/topPage/topHeader';
 
 const TopPage: React.FC = () => {
-  return <h2>プロトタイプ</h2>;
+  return (
+    <React.Fragment>
+      <TopHeader />
+    </React.Fragment>
+  );
 };
 
 export default TopPage;
